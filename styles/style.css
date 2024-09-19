@@ -292,6 +292,49 @@ p {
   color: #606659;
 }
 
+.iban-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 0px 120px 0px;
+  width: 100%;
+  gap: 60px;
+}
+
+.iban-container-header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.iban-container-body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.iban-container-body-element {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iban-container-body-element .material-symbols-outlined {
+  font-size: 64px;
+  color: #606659;
+}
+
+.iban-container a {
+  color: #606659;
+}
+
 /* rsvp */
 .rsvp-container label {
   font-size: 18px;
@@ -674,6 +717,36 @@ p {
   }
 
   .location-container a {
+    color: #606659;
+  }
+
+  /* iban */
+  .iban-container-header {
+    width: 80%;
+  }
+
+  .iban-container-body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    gap: 60px;
+  }
+
+  .iban-container-body-element {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .iban-container-body-element .material-symbols-outlined {
+    font-size: 64px;
+    color: #606659;
+  }
+
+  .iban-container a {
     color: #606659;
   }
 
